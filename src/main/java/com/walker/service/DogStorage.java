@@ -21,7 +21,7 @@ public class DogStorage {
         return allDogsList;
     }
 
-    public Dog updateDog (String name, int newAge , DogBreed updatedBreed){
+    public void updateDog (String name, int newAge , DogBreed updatedBreed){
         for ( Dog dog : allDogsList){
             if ( dog.getName().equals(name)) {
                 dog.setAge(newAge);
