@@ -8,7 +8,7 @@ import java.util.List;
 
 public class DogStorage {
 
-    private List<Dog> allDogsList;
+    private final List<Dog> allDogsList;
 
     public DogStorage(List<Dog> dogStorage) {
         this.allDogsList = new ArrayList<>();
