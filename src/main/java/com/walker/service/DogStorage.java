@@ -2,10 +2,12 @@ package com.walker.service;
 
 import com.walker.model.Dog;
 import com.walker.model.DogBreed;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Service
 public class DogStorage {
 
     private final List<Dog> allDogsList;
